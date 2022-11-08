@@ -61,7 +61,7 @@ const listMessage = {
   text: 'LIST SEWA OR RENT',
   footer: info,
   title: '',
-  buttonText: "Click Here",
+  buttonText: "Pencet Kak",
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m })
